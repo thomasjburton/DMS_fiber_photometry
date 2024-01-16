@@ -7,7 +7,9 @@ This is a transitory approach that allowed us to wrangle, process and analyse ph
 The data was generated using a TDT system (RZ5P Processor, Synapse, Tucker-Davis Technologies, TDT) and these scripts use functions provided by MATLAB SDK. We simultaneously recorded two streams of data per recording site: fluorescence emissions from 465 nm (biosensor) and 405 nm (isosbestic) light stimulation. Anywahere from 1-4 subjects were recorded at a given time (operant boxes A-D), with data from all subjects per recording packaged in a single raw file. The MATLAB workspace is organised such that each row is a recording session and each column is a subject within that recording session (also referred to as a single recording). Subjects were run in operant boxes A-D, organised in the MATLAB workspace as columns 1-4. Events (timestamped via a TTL pulse from med-pc) and the two photometry streams for each individual recording site were lablled according to the following:
 
 Operant Box A (col 1): PrtA ("epocs" or events), x405A (isosbestic stream), x465A (biosensor stream)
+
 Operant Box B (col 2): PrtB ("epocs" or events), x405B (isosbestic stream), x465B (biosensor stream)
+
 etc...
 
 
@@ -20,10 +22,15 @@ This script can be run to batch extract photometry data from tdt files and plot 
 
 
 Parts of this script are adapted from: 
+
     https://www.tdt.com/docs/sdk/offline-data-analysis/offline-data-matlab/licking-bout-epoc-filtering/
+    
     https://www.tdt.com/support/matlab-sdk/offline-analysis-examples/fiber-photometry-epoch-averaging-example/
+    
     https://github.com/tjd2002/tjd-shared-code/blob/master/matlab/photometry/FP_normalize.m
+    
 Requires MATLAB SDK :
+
     https://www.tdt.com/docs/sdk/offline-data-analysis/offline-data-matlab/getting-started/
 
 
