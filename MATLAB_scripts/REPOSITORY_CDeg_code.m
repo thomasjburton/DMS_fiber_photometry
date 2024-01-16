@@ -1,3 +1,22 @@
+%% HOUSEKEEPING
+%{
+
+This script will organise pre-processed fiber photometry data (organised by subject and session) 
+into event types. This script was written for analysing a free-operant lever-pressing task using
+med-associates/med-pc gear. Rats were able to make 2 lever press responses
+(left and right; LLP and RLP) that were situated either side of a recessed reward
+magazine. Lever-pressing resulted in the delivery of distinct reward
+outcomes (grain pellets or sucrose solution; PEL and SUC). Onsets and offsets for each
+lever press response, magazine entry (via IR beam break) and outcome delivery were recorded and each event
+occurrence has a corresponding stream of data centred on the event.
+
+BEFORE RUNNING SCRIPT:
+   -create a data structure "PrtA_cells" containing positionally mapped event and pre-processed
+    photometry data.
+   
+
+Genevra Hart (g.hart@unsw.edu.au) Jan 2023
+%}
 
 RLP=4;
 PEL=16;
