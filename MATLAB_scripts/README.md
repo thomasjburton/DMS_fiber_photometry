@@ -33,7 +33,7 @@ This script requires a specification of the identities of the coded events. It i
 
 <br />
 <br />
-Parts of this script are adapted from: 
+Parts of these scripts are adapted from: 
 
     https://www.tdt.com/docs/sdk/offline-data-analysis/offline-data-matlab/licking-bout-epoc-filtering/
     
