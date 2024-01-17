@@ -29,7 +29,17 @@ Once the artefact thresholds have been manually determined (and csv files create
 <br />
 This script requires a specification of the identities of the coded events. It is specific to the experimental situation characterising this study. The data provided on FigShare is packaged into a single MATLAB structure for each experiment, with everything now ordered by subject and by session. This script provides code for extracting this data. This script will iteratively cycle through each recording and organise the photometry data (z scored and baselined dFF) into different event types. 
 
+*event_sequences.m*
+<br />
+This script requires a specification of the identities of the coded events. It is specific to the experimental situation characterising this study. The data provided on FigShare is packaged into a single MATLAB structure for each experiment, with everything now ordered by subject and by session. This script is designed to follow the initial event_handling, and provides code for extracting events categorized accoring to the events that preceded them (being either another press, a magazine entry or neither of these events for a pre-determined period of time). This script will iteratively cycle through each recording and organise the photometry data (z scored and baselined dFF) into different event sequence categories. At the end of this script is a small example section showing how the area under the curve- AUC was calculated.
 
+*Learning_Simulations.m*
+<br />
+This script is designed to follow the initial event_handling, and uses teh pre-extracted events to create and simulate a learning rule that updates across and within sessions as animals make lever presses and magazine entries. This script must will iteratively cycle through each recording session of each animal in order (from first training session to last).
+
+*REPOSITORY_CDeg_code.m*
+<br />
+This script is a modification of the event_handling.m script, which will will distinguish between free and earned outcome deliveries for contingency degradation. This script will iteratively cycle through each recording and organise the photometry data (z scored and baselined dFF) into different event types. 
 
 <br />
 <br />
