@@ -6,14 +6,13 @@ Data accessible [here](https://doi.org/10.6084/m9.figshare.19083647.v2).
 
 This is a transitory approach that allowed us to wrangle, process and analyse photometry data but our team has since developed another framework for handling such data. These MATLAB scripts will therefore not be developed or improved. Going forward, we will be using the [behapy](https://github.com/crnolan/behapy) toolkit. 
 
-The data was generated using a TDT system (RZ5P Processor, Synapse, Tucker-Davis Technologies, TDT) and these scripts use functions provided by MATLAB SDK. We simultaneously recorded two streams of data per recording site: fluorescence emissions from 465 nm (biosensor) and 405 nm (isosbestic) light stimulation. Anywahere from 1-4 subjects were recorded simultaneously (in operant boxes A-D), with data from all subjects per recording packaged into the same raw files. The MATLAB workspace for handling the raw data is organised such that each row is a recording session and each column is a subject within that recording session (also referred to subsequently as a single recording). Subjects were run in operant boxes A-D and the data generated were organised in the MATLAB workspace as columns 1-4. Events (timestamped via a TTL pulse from med-pc) and the two photometry streams for each individual recording site were lablled thus:
+The data was generated using a TDT system (RZ5P Processor, Synapse, Tucker-Davis Technologies, TDT) and these scripts use functions provided by MATLAB SDK. We simultaneously recorded two streams of data per recording site: fluorescence emissions from 465 nm (biosensor) and 405 nm (isosbestic) light stimulation. Anywhere from 1-4 subjects were recorded simultaneously (in operant boxes A-D), with data from all subjects per recording packaged into the same raw files. The MATLAB workspace for handling the raw data is organised such that each row is a recording session and each column is a subject within that recording session (also referred to subsequently as a single recording). Subjects were run in operant boxes A-D and the data generated were organised in the MATLAB workspace as columns 1-4. Events (timestamped via a TTL pulse from med-pc) and the two photometry streams for each individual recording site were lablled thus:
 
 Operant Box A (col 1): PrtA ("epocs" or events), x405A (isosbestic stream), x465A (biosensor stream)
 
 Operant Box B (col 2): PrtB ("epocs" or events), x405B (isosbestic stream), x465B (biosensor stream)
 
 etc...
-
 
 ## Files
 
@@ -59,6 +58,7 @@ Requires MATLAB SDK :
 
     https://www.tdt.com/docs/sdk/offline-data-analysis/offline-data-matlab/getting-started/
 <br />
+
 
 Waveform analysis was achieved using philjrdb's [ERTsimulation](https://github.com/philjrdb/ERTsimulation).
 <br />
