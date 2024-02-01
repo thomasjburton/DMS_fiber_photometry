@@ -56,4 +56,4 @@ Requires MATLAB SDK :
     https://www.tdt.com/docs/sdk/offline-data-analysis/offline-data-matlab/getting-started/
 
 
-Thomas Burton (t.burton@unsw.edu.au) Jan 2023
+Thomas Burton, Jan 2023
