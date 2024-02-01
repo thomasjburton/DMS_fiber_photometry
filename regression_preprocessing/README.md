@@ -2,7 +2,7 @@
 
 *Exp2_Reversal_analysis.py*
 <br />
-Adapted from [original code](https://github.com/crnolan/behapy/blob/main/examples/analyse.py) written by Chris Nolan: 
+Adapted from [code](https://github.com/crnolan/behapy/blob/main/examples/analyse.py) originally written by Chris Nolan: 
 This script was used to analyse pre-processed fiber photometry data organised into the BIDS structure. It should sit in a ""*scripts*" subfolder in the top level of the BIDS structure. e.g.
 ```
     .\Exp2_Reversal_BIDS\scripts
