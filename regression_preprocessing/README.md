@@ -12,6 +12,4 @@ Specifically, this script calculated dFF, handled event mapping and executed the
 
 Pre-processing of raw fiber photometry data and organisation into the BIDS structure was achived via the [behapy](https://github.com/crnolan/behapy/tree/main) toolkit.
 
-
-
-    
+There is a command to generate a csv file containing the data . This can be further handled in MATLAB using *regcoeff_readcsv.m* 
