@@ -1,5 +1,6 @@
 # %%
 #Thomas Burton (t.burton@unsw.edu.au) Jan 2023
+#Adapted from original code written by Chris Nolan: https://github.com/crnolan/behapy/blob/main/examples/analyse.py
 #Keep this file in .\scripts in your project folder e.g. .\Exp2_Reversal_BIDS\scripts
 import logging
 from pathlib import Path
