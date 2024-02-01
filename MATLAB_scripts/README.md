@@ -58,8 +58,8 @@ Parts of these scripts are adapted from:
 Requires MATLAB SDK :
 
     https://www.tdt.com/docs/sdk/offline-data-analysis/offline-data-matlab/getting-started/
-
+<br />
 Waveform analysis was achieved using philjrdb's [ERTsimulation](https://github.com/philjrdb/ERTsimulation).
-
-
+<br />
+<br />
 Thomas Burton, Jan 2023
