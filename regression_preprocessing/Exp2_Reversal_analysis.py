@@ -1,4 +1,5 @@
 # %%
+#Thomas Burton (t.burton@unsw.edu.au) Jan 2023
 #Keep this file in .\scripts in your project folder e.g. .\Exp2_Reversal_BIDS\scripts
 import logging
 from pathlib import Path
