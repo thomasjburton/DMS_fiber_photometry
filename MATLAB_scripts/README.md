@@ -1,6 +1,6 @@
 # DMS_fiber_photometry
 
-This folder contains files that were used to process and analyse fiber photometry data detailed in [this paper](https://doi.org/10.1101/2022.01.31.478585).
+This folder contains files that were used to process and analyse fiber photometry data detailed in [this paper](https://doi.org/10.1016/j.celrep.2024.113828).
 
 Data accessible [here](https://doi.org/10.6084/m9.figshare.19083647.v2).
 
